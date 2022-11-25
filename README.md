@@ -10,9 +10,9 @@ Bu sprint mücadelesi sırasında işbirliği yapmanıza izin verilmez.
 
 ### Proje Kurulumu
 
-* [ ] Bu projenyi forklayarak bir kopyasını oluşturun.
-* [ ] Reponun kendi versiyonunuzu klonlayın.
-* [ ] Commitinizi pushlayın: `git push origin main`.
+- [ ] Bu projenyi forklayarak bir kopyasını oluşturun.
+- [ ] Reponun kendi versiyonunuzu klonlayın.
+- [ ] Commitinizi pushlayın: `git push origin main`.
 
 ## Proje Açıklaması
 
@@ -34,9 +34,9 @@ Aşağıda listelenen minimum uygulanabilir ürün (MVP) spesifikasyonlarını k
 
 **MVP için adımlar:**
 
-- [ ] Adım 1 ve 2 `src/bileşenler/header.js` dosyasında açıklandı.
-- [ ] Adım 3 ve 4 `src/bileşenler/tabs.js` dosyasında açıklandı.
-- [ ] Adım 5 ve 6 `src/bileşenler/card.js` dosyasında açıklandı.
+- [x] Adım 1 ve 2 `src/bileşenler/header.js` dosyasında açıklandı.
+- [x] Adım 3 ve 4 `src/bileşenler/tabs.js` dosyasında açıklandı.
+- [x] Adım 5 ve 6 `src/bileşenler/card.js` dosyasında açıklandı.
 
 **Önemli Notlar:**
 
@@ -46,7 +46,6 @@ Aşağıda listelenen minimum uygulanabilir ürün (MVP) spesifikasyonlarını k
 - Çözümünüzde en iyi uygulamaları izlemeniz, temiz ve profesyonel sonuçlar üretmeniz önemlidir.
 - Yazım denetimi ve dilbilgisi denetimi de dahil olmak üzere çalışmanızı gözden geçirmek, iyileştirmek için zaman planlayın.
 - MVP'yi karşılayan bir meydan okuma göndermek, çok fazla detayla uğraşılıp da çalışmayan bir kod göndermekten daha iyidir.
-
 
 ## Ek Sorular
 
