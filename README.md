@@ -52,7 +52,21 @@ Aşağıda listelenen minimum uygulanabilir ürün (MVP) spesifikasyonlarını k
 Aşağıdaki soruları yanıtlayarak bu sprint'in kavramlarını anladığınızı gösterin. Her sorudan sonra yanıtlarınızı eklemek için bu belgeyi düzenleyin.
 
 1. DOM nedir?
+
+- Açılımı Document Object Model olan DOM, HTML dükümanının tamamına ulaşmak için kullanılır. Böylece içeriği, yapısını ve stilini değiştirebiliriz.
+
 2. Bir event nedir?
+
+- Event DOM'da gerçekleşen herhangi bir olayı ifade etmek için kullanılır. Bu bir mouse hareketi, click, resize vs. olabilir.
+
 3. Bir event dinleyici(listener) nedir?
-4. Neden bir NodeList'i Array'e dönüştürelim??
+
+- Event dinleyici belirli bir olay gerçekleştiğinde yapılacak işlem olarak düşünebiliriz. Kullanıcı bir butona tııkladığında yazı renginin değişmesi vs. gibi.
+
+4. Neden bir NodeList'i Array'e dönüştürelim?
+
+- NodeList'i array'e dönüşterek onlara ulaşabilir ve gerekli yerlerde kullanabiliriz.
+
 5. Bileşen nedir?
+
+- Bileşenleri tekrar tekrar kullanılabilen yapılar olarak düşünebiliriz. HTML, CSS ve JS yapısını içerirler.
