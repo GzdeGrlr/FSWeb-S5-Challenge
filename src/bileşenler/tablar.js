@@ -29,9 +29,6 @@ const Tablar = (konu) => {
   return topicsDiv;
 };
 
-const test = Tablar(["javascript", "bootstrap", "teknoloji"]);
-console.log(test);
-
 const tabEkleyici = (secici) => {
   // GÖREV 4
   // ---------------------
@@ -42,6 +39,7 @@ const tabEkleyici = (secici) => {
   //
   const tabContainer = document.querySelector(secici);
   axios.get("http://localhost:5001/api/konular").then(function (response) {
+    //console.log(response.data);
     const tablar = Tablar(response.data.konular);
     tabContainer.appendChild(tablar);
   });

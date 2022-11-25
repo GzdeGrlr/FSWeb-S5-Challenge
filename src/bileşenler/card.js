@@ -50,7 +50,7 @@ const cardEkleyici = (secici) => {
   //
 
   axios.get("http://localhost:5001/api/makaleler").then(function (response) {
-    //console.log(response.data.makaleler);
+    //console.log(response.data);
 
     for (let i in response.data.makaleler) {
       response.data.makaleler[i].forEach(function (makale) {
